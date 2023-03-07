@@ -1,0 +1,80 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(11, 93, 15, 0.2);
+    transition: 0.3s;
+    padding: 20px;
+    min-height: 225px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-shadow: 0px 0px 6px white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#akron{
+    background-image: url("../includes/akron.jpeg");
+}
+#cincinnati{
+    background-image: url("../includes/cincinnati.jpeg");
+}
+#columbus{
+    background-image: url("../includes/columbus.jpeg");
+}
+#cleveland{
+    background-image: url("../includes/cleveland.jpeg");
+}
+#dayton{
+    background-image: url("../includes/dayton.jpeg");
+}
+#toledo{
+    background-image: url("../includes/toledo.jpeg");
+}
+.card:hover {
+    color: rgb(26, 128, 26);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+@media only screen and (max-width: 750px) {
+    .grid {
+      grid-template-columns: 100%;
+    }
+}
+.headerpicture{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+    padding: 2px;
+    margin: 1em;
+}
+.navbar{
+    background-color: rgb(12, 147, 12);
+}
+.logo{
+    height: 3em;
+}
+.trailimg{
+    width: 100%;
+}
+.userPicture{
+    width: 20em;
+    height: 20em;
+}
+.userPicture-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+h1{
+    margin-left: 1em;
+}
